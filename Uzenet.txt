@@ -1,2 +1,5 @@
 Uzenet a palackbol:
     Nekem mukszik!
+
+Uzenet a palackbol 2:
+    Ha ezt latod, akkor mar annyival beljebb vagyunk, hogy mindketten tudunk egy repon dolgozni.
