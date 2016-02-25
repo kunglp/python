@@ -69,7 +69,7 @@ class App:
             for event in pygame.event.get():
                 self.on_event(event)
             keys = pygame.key.get_pressed() 
-            if (keys[K_ESCAPE]):
+            if (keys[lcl.K_ESCAPE]):
                 self._running = False
             time.sleep(0.1)
             rand = random.randint(0,3)
