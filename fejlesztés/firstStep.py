@@ -8,7 +8,7 @@ This is a temporary script file.
 import pygame
 import time
 import random
-from pygame.locals import *
+import pygame.locals as lcl
  
  
 class Fire:
