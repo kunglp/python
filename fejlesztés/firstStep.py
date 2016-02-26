@@ -11,7 +11,7 @@ import random
 import pygame.locals as lcl
  
  
-class Fire:
+class Fire(object):
     x = 150
     y = 150
     spread = 30
@@ -31,7 +31,7 @@ class Fire:
              
   
  
-class App:
+class App(object):
 
     
         

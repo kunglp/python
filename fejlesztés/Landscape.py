@@ -10,7 +10,7 @@ A class that contains the map and handles the fire activity
 import numpy as np
 
 
-class Landscape:
+class Landscape(object):
     
     On_Fire_List = set([])
     Fire_Neighbours = set([])    
