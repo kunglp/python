@@ -89,7 +89,7 @@ class Landscape(object):
                 self.On_Fire_List.add(coord)
                 self.Is_On_Fire[coord[0],coord[1]] = 1
         
-        """ Consume fuel and burn down if eligable"""
+        """ Consume fuel and mark tiles to be brunt down"""
         to_burn_down = set()
         for coord in self.On_Fire_List:
             self.Terrain_Fuel[coord[0], coord[1]] -= 1
@@ -97,6 +97,7 @@ class Landscape(object):
                 to_burn_down.add(coord)
                 self.Burnt_Down.add(coord)
         
+        """ Burn down """
         for coord in to_burn_down:
             self.On_Fire_List.remove(coord)
             self.Is_On_Fire[coord[0],coord[1]] = 0.
